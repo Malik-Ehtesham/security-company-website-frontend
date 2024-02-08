@@ -33,7 +33,7 @@ const Navbar = (props) => {
           <Link to="/">
             <img
               src={Logo}
-              className="w-20 h-20 border-4 border-sky-700 rounded-full"
+              className="w-24 h-20 border-4 border-sky-700 rounded-lg"
             />
           </Link>
         </div>

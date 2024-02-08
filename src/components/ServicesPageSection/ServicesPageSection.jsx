@@ -36,11 +36,6 @@ const ServicesPageSection = () => {
             description="Sichern Sie die Sicherheit und den Schutz Ihres Eigentums mit unserem umfassenden Objektschutz. Bei BKF haben wir es uns zur Priorität gemacht, Ihre Vermögenswerte zu schützen. Unser Expertenteam setzt modernste Technologien und strategische Lösungen ein, um Risiken zu minimieren und potenzielle Bedrohungen abzuschrecken. Von Wohnimmobilien bis zu Gewerbeimmobilien gewährleistet unser maßgeschneiderter Ansatz eine aufmerksame und reaktionsschnelle Sicherheitspräsenz. Vertrauen Sie uns, um das zu schützen, was für Sie am wichtigsten ist, und bieten Sie Eigentümern und Insassen gleichermaßen ein beruhigendes Gefühl."
           />
           <ServicesCard
-            title={"Feuerwache"}
-            image={Service2}
-            description="Verbessern Sie Ihre Brandschutzmaßnahmen mit unserem umfassenden Feuerwachdienst bei BKF. Unser engagiertes Team von geschulten Fachleuten bietet eine aufmerksame Überwachung, um potenzielle Brandrisiken während vorübergehender Zeiträume erhöhter Verwundbarkeit zu minimieren. Mit dem Engagement für den Schutz Ihrer Vermögenswerte bietet unser Service eine zuverlässige Schutzschicht. Vertrauen Sie BKF, um Wache zu stehen und einen professionellen Feuerwachdienst anzubieten, der die Sicherheit Ihrer Räumlichkeiten verbessert."
-          />
-          <ServicesCard
             title={"Bewachung"}
             image={Service3}
             description="Bewachung mit Präzision und Wachsamkeit: Unser Sicherheitspersonal bei BKF steht als unerschütterliche Wächter da, die sich der Sicherung Ihrer Räumlichkeiten und Vermögenswerte verschrieben haben. Sorgfältig geschult und äußerst professionell bieten unsere Wächter eine sichtbare Abschreckung gegen potenzielle Bedrohungen und gewährleisten eine sichere Umgebung. Egal, ob es um die Sicherung Ihres Unternehmens, Ihrer Residenz, Ihrer Veranstaltung oder Ihrer Baustelle geht – unser Bewachungsdienst ist Ihre Verteidigungslinie. Vertrauen Sie BKF für einen robusten Bewachungsdienst, der die Erwartungen übertrifft."
@@ -57,15 +52,15 @@ const ServicesPageSection = () => {
             description="Unser Service zur Überwachung von Baustellen ist Ihr wachsames Auge auf der Baustelle. Bei BKF verstehen wir die einzigartigen Sicherheitsherausforderungen von Baustellen. Unsere umfassenden Überwachungslösungen bieten Echtzeitüberwachung, Zugangskontrolle und Risikomanagement. Mit fortschrittlichen Technologien und geschultem Personal gewährleisten wir die Sicherheit Ihrer Baustelle. Arbeiten Sie mit uns zusammen, um Ihr Bauprojekt mit robuster Sicherheit zu stärken und sich auf den Fortschritt mit ruhigem Gewissen zu konzentrieren."
           />
           <ServicesCard
-            title={"Türsteher"}
+            title={"Doorman"}
             image={Service6}
             description="
             Erhöhen Sie die Sicherheit Ihres Unternehmens mit unserem Premium-Türsteherdienst. Unsere höflichen und professionellen Türsteher sind nicht nur Wächter des Eingangs; sie verkörpern eine einladende und sichere Umgebung. Geschult, eine nahtlose Mischung aus Gastfreundschaft und Sicherheit zu bieten, stellen unsere Türsteher sicher, dass jeder Eintritt kontrolliert wird, jeder Gast mit Respekt begrüßt wird und Ihre Räumlichkeiten geschützt sind. Vertrauen Sie darauf, dass wir an vorderster Front stehen und Ihre Räumlichkeiten mit höchstem Professionalismus schützen."
           />
           <ServicesCard
-            title={"Persönlicher Schutz"}
+            title={"Event Schutz"}
             image={Service7}
-            description="Ihre Sicherheit hat für uns oberste Priorität. Unser persönlicher Schutzdienst bei BKF ist darauf ausgelegt, Ihnen in verschiedenen Situationen eine dedizierte Sicherheitsebene zu bieten. Ob Sie eine Person des öffentlichen Lebens sind, eine öffentliche Persönlichkeit oder einfach jemand, der zusätzliche Sicherheit sucht – unsere geschulten Fachleute sind darauf bedacht, Ihre Sicherheit zu gewährleisten. Vertrauen Sie BKF für einen zuverlässigen und vertraulichen persönlichen Schutzdienst, der auf Ihre individuellen Bedürfnisse zugeschnitten ist."
+            description="Bei BKF steht Ihre Sicherheit an erster Stelle. Unser spezialisierter Schutzdienst bietet maßgeschneiderte Sicherheitslösungen für Veranstaltungen jeder Art. Unser erfahrenes Team arbeitet eng mit Ihnen zusammen, um eine umfassende Sicherheitsstrategie zu entwickeln, angefangen bei der Risikobewertung bis hin zur Durchführung. Vertrauen Sie uns für eine sichere und erfolgreiche Veranstaltung, die einen bleibenden Eindruck bei Ihren Gästen hinterlässt."
           />
           <ServicesCard
             title={"Hostessen"}
