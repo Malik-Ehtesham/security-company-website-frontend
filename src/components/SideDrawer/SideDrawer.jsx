@@ -52,7 +52,7 @@ export default function SwipeableTemporaryDrawer() {
           {/* <p className=" gradient-text text-lg font-bold">Call Up!</p> */}
           <img
             src={Logo}
-            className="w-20 h-20 mx-2 rounded-full border-4 border-sky-700"
+            className="w-24 h-20 mx-2 rounded-lg border-4 border-sky-700"
           />{" "}
         </ListItem>
         <ListItem disablePadding onClick={toggleDrawer(anchor, false)}>
@@ -130,7 +130,7 @@ export default function SwipeableTemporaryDrawer() {
               <div className="flex justify-center items-center">
                 <img
                   src={Logo}
-                  className="w-20 mx-5 border-4 border-sky-700 rounded-full m-5"
+                  className="w-24 h-20  rounded-lg mx-5 border-4 border-sky-700  m-5"
                 />
               </div>
               <Button onClick={toggleDrawer(anchor, true)} className="">
