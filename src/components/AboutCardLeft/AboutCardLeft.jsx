@@ -14,7 +14,7 @@ const AboutCardLeft = (props) => {
             <p className=" text-lg">{props.description}</p>
             <div>
               <Link
-                to="/pricing"
+                to="/contactus"
                 className="btn  btn-info text-white text-lg py-4 px-8 my-8"
               >
                 Loslegen
