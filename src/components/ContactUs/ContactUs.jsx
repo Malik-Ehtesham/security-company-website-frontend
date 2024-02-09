@@ -4,6 +4,7 @@ import CtaSection from "../CtaSection/CtaSection";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import QuestionSection from "../QuestionSection/QuestionSection";
+import MapSection from "../MapSection/MapSection";
 
 const ContactUs = () => {
   useEffect(() => {
@@ -13,6 +14,7 @@ const ContactUs = () => {
     <div>
       <Header />
       <ContactUsSection />
+      <MapSection />
       <QuestionSection />
       <CtaSection />
       <Footer />
