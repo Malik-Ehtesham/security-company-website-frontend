@@ -35,7 +35,7 @@ const HomeSection = () => {
             </Link>
             <Link
               to="/aboutus"
-              className="btn btn-warning  md:btn-lg my-6  text-white mx-4"
+              className="btn btn-info  md:btn-lg my-6  text-white mx-4"
             >
               Erfahren Sie mehr
             </Link>
