@@ -33,7 +33,7 @@ const Navbar = (props) => {
           <Link to="/">
             <img
               src={Logo}
-              className="w-24 h-20 border-4 border-sky-700 rounded-lg"
+              className="w-24 h-24 border-4 border-sky-700 rounded-full"
             />
           </Link>
         </div>
@@ -79,7 +79,7 @@ const Navbar = (props) => {
                   scrolled ? "text-slate-100" : ""
                 }`}
               >
-                Sicherheitsdienste
+                Sicherheitsdienstleistungen
               </Link>
             </li>
             <li

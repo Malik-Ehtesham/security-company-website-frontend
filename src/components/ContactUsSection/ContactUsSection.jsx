@@ -10,13 +10,13 @@ const ContactUsSection = () => {
           </p>
           <p className="text-lg ">
             Ganz gleich, ob Sie Fragen haben, weitere Informationen zu unseren
-            Sicherheitsdiensten benötigen oder eine maßgeschneiderte Lösung für
-            Ihre spezifischen Anforderungen besprechen möchten, wir sind für Sie
-            da. Bitte nutzen Sie das Kontaktformular, um mit uns Kontakt
-            aufzunehmen. Unser engagiertes Team wird umgehend auf Ihre Fragen
-            antworten und Ihnen die Unterstützung bieten, die Sie benötigen.
-            Vielen Dank, dass Sie BKF für Ihre Sicherheitsanforderungen in
-            Betracht gezogen haben.
+            Sicherheitsdienstleistungenn benötigen oder eine maßgeschneiderte
+            Lösung für Ihre spezifischen Anforderungen besprechen möchten, wir
+            sind für Sie da. Bitte nutzen Sie das Kontaktformular, um mit uns
+            Kontakt aufzunehmen. Unser engagiertes Team wird umgehend auf Ihre
+            Fragen antworten und Ihnen die Unterstützung bieten, die Sie
+            benötigen. Vielen Dank, dass Sie BKF für Ihre
+            Sicherheitsanforderungen in Betracht gezogen haben.
           </p>
         </div>
         <ContactUsForm />

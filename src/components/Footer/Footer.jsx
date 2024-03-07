@@ -40,7 +40,7 @@ const Footer = () => {
                   to="/services"
                   className="link link-hover text-white hover:text-yellow-400 my-2"
                 >
-                  Sicherheitsdienste
+                  Sicherheitsdienstleistungen
                 </Link>{" "}
                 <Link
                   to="/career"

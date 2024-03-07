@@ -42,7 +42,7 @@ export default function SwipeableTemporaryDrawer() {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 250 }}
+      sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 300 }}
       role="presentation"
       onKeyDown={toggleDrawer(anchor, false)}
       //   className="bg-sky-200 h-screen"
@@ -52,7 +52,7 @@ export default function SwipeableTemporaryDrawer() {
           {/* <p className=" gradient-text text-lg font-bold">Call Up!</p> */}
           <img
             src={Logo}
-            className="w-24 h-20 mx-2 rounded-lg border-4 border-sky-700"
+            className="w-24 h-24 mx-2 rounded-full border-4 border-sky-700"
           />{" "}
         </ListItem>
         <ListItem disablePadding onClick={toggleDrawer(anchor, false)}>
@@ -61,7 +61,7 @@ export default function SwipeableTemporaryDrawer() {
               <ListItemIcon>
                 <HomeIcon className="text-sky-700" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
+              <p className=" px-0.5 py-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
                 Heim
               </p>
               {/* <ListItemText primary="Home" /> */}
@@ -74,7 +74,7 @@ export default function SwipeableTemporaryDrawer() {
               <ListItemIcon>
                 <InfoIcon className="text-sky-700" />
               </ListItemIcon>
-              <p className="p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
+              <p className="px-0.5 py-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
                 Über uns
               </p>
             </ListItemButton>
@@ -87,8 +87,8 @@ export default function SwipeableTemporaryDrawer() {
               <ListItemIcon>
                 <SecurityIcon className="text-sky-700" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
-                Sicherheitsdienste
+              <p className=" px-0.5 py-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
+                Sicherheitsdienstleistungen
               </p>
             </ListItemButton>
           </Link>
@@ -99,7 +99,7 @@ export default function SwipeableTemporaryDrawer() {
               <ListItemIcon>
                 <WorkIcon className="text-sky-700" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
+              <p className=" px-0.5 py-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
                 Karriere
               </p>
             </ListItemButton>
@@ -111,7 +111,7 @@ export default function SwipeableTemporaryDrawer() {
               <ListItemIcon>
                 <CallIcon className="text-sky-700" />
               </ListItemIcon>
-              <p className=" p-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
+              <p className=" px-0.5 py-1 text-lg font-semibold  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:text-sky-700 ">
                 Kontaktiere uns
               </p>
             </ListItemButton>
@@ -130,7 +130,7 @@ export default function SwipeableTemporaryDrawer() {
               <div className="flex justify-center items-center">
                 <img
                   src={Logo}
-                  className="w-24 h-20  rounded-lg mx-5 border-4 border-sky-700  m-5"
+                  className="w-24 h-24  rounded-full mx-5 border-4 border-sky-700  m-5"
                 />
               </div>
               <Button onClick={toggleDrawer(anchor, true)} className="">

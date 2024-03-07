@@ -41,7 +41,7 @@ const AboutQuestionSection = () => {
           answer="Absolut. Wir verstehen, dass jeder Kunde einzigartige Sicherheitsanforderungen hat. Unser Team arbeitet eng mit Ihnen zusammen, um personalisierte Sicherheitspakete zu erstellen, die Ihre spezifischen Anliegen ansprechen und eine maßgeschneiderte Lösung bieten."
         />
         <QuestionAccordion
-          question="In welchen Gebieten bieten Sie Sicherheitsdienste an?"
+          question="In welchen Gebieten bieten Sie Sicherheitsdienstleistungen an?"
           answer="Unsere Dienstleistungen erstrecken sich über [Liste der Gebiete/Städte/Regionen, die Sie abdecken]. Kontaktieren Sie uns gerne, um die Verfügbarkeit an Ihrem speziellen Standort zu erfragen und Ihre Sicherheitsbedürfnisse zu besprechen."
         />
         <QuestionAccordion
